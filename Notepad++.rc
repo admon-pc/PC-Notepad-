@@ -1,0 +1,133 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 309, 250
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_LAYERED
+CAPTION "Find"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,198,229,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,252,229,50,14
+    LTEXT           "Find what:",IDC_STATIC,15,16,35,8
+    EDITTEXT        IDC_EDIT1,49,14,241,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Find UP",IDC_BUTTON1,181,32,48,13,WS_DISABLED
+    PUSHBUTTON      "Find DOWN",IDC_BUTTON2,233,32,47,13
+    CONTROL         "Match case",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,86,27,48,16
+    PUSHBUTTON      "Clear",IDC_BUTTON3,49,28,32,14
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,75,231,84,12
+    LTEXT           "Window transparency",IDC_STATIC,7,232,72,9
+    GROUPBOX        "Search in files",IDC_STATIC,7,52,295,169
+    EDITTEXT        IDC_EDIT2,83,64,211,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Select directory",IDC_BUTTON4,15,63,62,15
+    EDITTEXT        IDC_EDIT3,18,102,185,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST1,7,159,295,62,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Extension filter(for example .c .h .cpp)",IDC_STATIC,14,87,193,11
+    CONTROL         "Search in sub directories",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,121,94,10
+    PUSHBUTTON      "Start search",IDC_BUTTON5,16,141,74,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
