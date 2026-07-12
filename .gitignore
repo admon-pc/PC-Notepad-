@@ -1,4 +1,4 @@
-# Prerequisites
+﻿# Prerequisites
 *.d
 
 # Object files
@@ -53,3 +53,6 @@ dkms.conf
 
 # debug information files
 *.dwo
+.vs/
+Notepad++/
+x64/

@@ -264,7 +264,7 @@ public:
 		append(buf);
 	}
 
-	void append(size_t c)
+	void append(uint32_t c)
 	{
 		char buf[32];
 		sprintf_s(buf, 32, "%u", c);
@@ -356,7 +356,7 @@ public:
 	const_reference operator[](size_t i) const { return m_data[i]; }
 	reference operator[](size_t i) { return m_data[i]; }
 	void operator+=(int32_t i) { append(i); }
-	void operator+=(size_t i) { append(i); }
+	void operator+=(uint32_t i) { append(i); }
 	void operator+=(uint64_t i) { append(i); }
 	void operator+=(float32_t i) { append(i); }
 	void operator+=(float64_t i) { append(i); }
