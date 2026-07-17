@@ -362,7 +362,7 @@ void npDocument_text2::Update(float dt)
 		input->m_isLMBHold = false;
 	}
 	
-	if (input->m_isRMBDown && !m_clickedLMB)
+	if (input->m_isRMBDown && !m_clickedLMB && !m_isSelected)
 	{
 		_showTextCursor();
 		m_textCursorPosition = m_charForMousePick;
